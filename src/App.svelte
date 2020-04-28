@@ -7,7 +7,9 @@
 
 <main>
   <BigHeader hashtag={hashtag} />
-  <input type="text" bind:value={hashtag} />
+  <div>
+    <input type="text" bind:value={hashtag} />
+  </div>
   <PhotoList />
 </main>
 

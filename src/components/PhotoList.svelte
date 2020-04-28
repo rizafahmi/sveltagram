@@ -3,6 +3,9 @@
   const photos = data.graphql.hashtag.edge_hashtag_to_media.edges;
 </script>
 
+<svelte:head>
+  <link href="./PhotoList.css" rel="stylesheet" />
+</svelte:head>
 <div>
   <ul>
     {#each photos as photo}

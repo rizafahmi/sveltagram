@@ -5,11 +5,12 @@
   export let hashtag;
 </script>
 
-<main>
+<svelte:head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" rel="stylesheet" />
+</svelte:head>
+
+<main class="container">
   <BigHeader hashtag={hashtag} />
-  <div>
-    <input type="text" bind:value={hashtag} />
-  </div>
   <PhotoList />
 </main>
 

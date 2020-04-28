@@ -2,6 +2,7 @@ dependencies:
   sirv-cli: 0.4.5
 devDependencies:
   '@rollup/plugin-commonjs': 11.0.2_rollup@1.32.1
+  '@rollup/plugin-json': 4.0.3_rollup@1.32.1
   '@rollup/plugin-node-resolve': 7.1.3_rollup@1.32.1
   rollup: 1.32.1
   rollup-plugin-livereload: 1.2.0
@@ -47,6 +48,15 @@ packages:
       rollup: ^1.20.0
     resolution:
       integrity: sha512-MPYGZr0qdbV5zZj8/2AuomVpnRVXRU5XKXb3HVniwRoRCreGlf5kOE081isNWeiLIi6IYkwTX9zE0/c7V8g81g==
+  /@rollup/plugin-json/4.0.3_rollup@1.32.1:
+    dependencies:
+      '@rollup/pluginutils': 3.0.9_rollup@1.32.1
+      rollup: 1.32.1
+    dev: true
+    peerDependencies:
+      rollup: ^1.20.0 || ^2.0.0
+    resolution:
+      integrity: sha512-QMUT0HZNf4CX17LMdwaslzlYHUKTYGuuk34yYIgZrNdu+pMEfqMS55gck7HEeHBKXHM4cz5Dg1OVwythDdbbuQ==
   /@rollup/plugin-node-resolve/7.1.3_rollup@1.32.1:
     dependencies:
       '@rollup/pluginutils': 3.0.9_rollup@1.32.1
@@ -546,6 +556,7 @@ packages:
       integrity: sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
 specifiers:
   '@rollup/plugin-commonjs': 11.0.2
+  '@rollup/plugin-json': 4.0.3
   '@rollup/plugin-node-resolve': ^7.0.0
   rollup: ^1.20.0
   rollup-plugin-livereload: ^1.0.0

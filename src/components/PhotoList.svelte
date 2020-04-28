@@ -1,6 +1,17 @@
 <script>
-  import data from '../instagram.json';
-  const photos = data.graphql.hashtag.edge_hashtag_to_media.edges;
+  import { onMount } from 'svelte';
+
+  let photos = [];
+
+  onMount(async function() {
+    try {
+      const res = await fetch(`https://www.instagram.com/explore/tags/ceritanyadeveloper/?__a=1`);
+      const data = await res.json();
+      photos = data.graphql.hashtag.edge_hashtag_to_media.edges;
+    } catch (err) {
+      console.error(err);
+    }
+  });
 
   function truncate_words(text, length) {
     if (text.length <= length) {

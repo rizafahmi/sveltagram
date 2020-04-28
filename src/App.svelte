@@ -5,6 +5,7 @@
 
 <main>
   <BigHeader hashtag={hashtag} />
+  <input type="text" bind:value={hashtag} />
 </main>
 
 <style>

@@ -1,6 +1,6 @@
 # Sveltagram
 
-Demo membangun aplikasi dengan Svelte untuk menampikan data dan gambar dari Instagram. Tutorial lengkapnya dapat ditemukan di https://rizafahmi.com/2020/04/27/svelte.
+Demo membangun aplikasi dengan Svelte untuk menampikan data dan gambar dari Instagram. Tutorial lengkapnya dapat ditemukan di https://rizafahmi.com/2020/04/27/svelte. Demo aplikasi dapat ditemukan di [https://sveltagram.now.sh](https://sveltagram.now.sh).
 
 ## Cara Menjalankan
 
